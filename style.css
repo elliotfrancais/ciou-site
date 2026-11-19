@@ -1,0 +1,15 @@
+:root { --bg: #0b0e1a; --card: #141829; --text: #e9e6f2; --muted: #a7a3b8; --gold: #f5d28f; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.75 -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: 2px; }
+h2 { font-size: 18px; color: var(--gold); margin: 32px 0 8px; }
+p, li { color: var(--muted); }
+.date { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+.card { background: var(--card); border-radius: 16px; padding: 4px 20px 16px; margin-top: 16px; }
+a { color: var(--gold); }
+table { width: 100%; border-collapse: collapse; }
+td { padding: 8px 0; border-bottom: 1px solid #23283d; color: var(--muted); }
+td.num { text-align: right; color: var(--text); font-variant-numeric: tabular-nums; white-space: nowrap; }
+footer { margin-top: 48px; font-size: 13px; color: #6f6b80; }
